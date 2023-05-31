@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Puddles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Rubik+Puddles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+body {
+    background-color: rgb(0, 0, 0);
+    padding: 30px;
+}
+
+main {
+    background-color: rgb(0, 0, 0);
+    padding: 10px 40px 40px 40px;
+}
+
+p,
+li,
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: white;
+
+}
+
+li {
+    margin: 15px;
+}
+
+.introducaoSite {
+    color: #b700ff;
+    text-align: justify;
+}
+
+.tituloPrincipal {
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 50px rgb(255, 255, 255);
+    font-family: 'Rubik Puddles', cursive;
+    font-size: xx-large;
+}
+
+.subtitulo {
+    font-family: 'Dancing Script', cursive;
+    font-size: x-large;
+    text-align: justify;
+    color: #c300ff;
+    text-shadow: 0 0 50px #c300ff;
+    width: auto;
+}
+
+#metal>.subtitulo {
+    text-align: justify;
+    color: rgb(107, 0, 0);
+    text-shadow: 0 0 50px rgb(107, 0, 0);
+    width: auto;
+}
+
+#rock>.subtitulo {
+    text-align: justify;
+    color: rgb(255, 136, 0);
+    text-shadow: 0 0 50px rgb(255, 136, 0);
+    width: auto;
+}
+
+#Funk>.subtitulo {
+    text-align: justify;
+    color: #ffb514;
+    text-shadow: 0 0 50px #ffb514;
+    width: auto;
+}
+
+#rap>.subtitulo {
+    text-align: justify;
+    color: #39ff14;
+    text-shadow: 0 0 50px #39ff14;
+    width: auto;
+}
+
+#pop>.subtitulo {
+    text-align: justify;
+    color: #0084ff;
+    text-shadow: 0 0 50px #0084ff;
+    width: auto;
+}
+
+#indie>.subtitulo {
+    text-align: justify;
+    color: #fbff00;
+    text-shadow: 0 0 50px #fbff00;
+    width: auto;
+}
+
+.pIntroducao {
+    color: #ff4492;
+    text-align: justify;
+}
+
+.pOrigem {
+    color: #1100ff;
+    text-align: justify;
+}
+
+.PrincipaisCantores {
+    margin-bottom: 40px;
+}
+
+.PrincipaisCantores>p,
+li {
+    color: aqua;
+    text-align: justify;
+}
+
+audio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 37.5%;
+}
+
+article {
+    margin-bottom: 30px;
+}
+
+header {
+    background-color: rgba(0, 0, 0, .95);
+    box-shadow: 2px 10px 10px rgba(0, 0, 0, .25);
+    padding-top: 1em;
+    margin-bottom: 25px;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    padding-inline: 7.5px;
+    margin-left: 10px;
+}
+
+header a {
+    text-decoration: none;
+    text-shadow: 1px 1px rgb(124, 124, 124);
+    padding-left: 70px;
+}
+
+a:hover {
+    color: #24ffab;
+}
+
+a:active {
+    color: rgb(255, 255, 255);
+}
+
+img {
+    display: inline-block;
+    border-radius: 50%;
+    width: 300px;
+    border: white 3px solid;
+    margin: 5%;
+}
+
+.imageRight {
+    float: right;
+}
+
+.imageLeft {
+    float: left;
+}
+
+nav {
+    background-color: rgb(29, 27, 27);
+    position: fixed;
+    border: white 1px solid;
+    bottom: 10px;
+    right: 10px;
+}
