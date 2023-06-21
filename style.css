@@ -4,7 +4,7 @@
 
 body {
     padding: 30px;
-    background: linear-gradient(#e2b900, #ff019d, #c300ff, #003cff, #000000, #000000, #363636);
+    background: linear-gradient(#b99804, #91075c, #c300ff, #003cff, #000000, #000000, #363636);
 }
 
 main {
@@ -93,8 +93,6 @@ li {
 }
 
 .audio {
-    display: flex;
-    justify-content: center;
     align-items: center;
     margin-left: 37.5%;
     display: grid;
@@ -110,7 +108,7 @@ header {
     margin-bottom: 25px;
 }
 
-li {
+li{
     list-style-type: none;
     display: inline-block;
     padding-inline: 7.5px;
@@ -148,15 +146,29 @@ img {
 }
 
 nav {
+    display: flex;
     top: 0;
     right: 0;
     left: 0;
-    padding-left: 15%;
     position: fixed;
 }
 
 #creditos > h2{
     font-size: 400%;
     color: white;
-
 }
+
+.giphy-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: min-content;
+    border: 0;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    transition: all 0.5s ease;
+  }
+
+  #giphyButton {
+    margin-left: 50%;
+  }
