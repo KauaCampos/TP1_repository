@@ -3,12 +3,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 
 body {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
     padding: 30px;
 }
 
 main {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
     padding: 10px 40px 40px 40px;
 }
 
@@ -17,8 +17,8 @@ li,
 a {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
-    color: white;
-
+    color: rgb(0, 0, 0);
+    text-align: justify;
 }
 
 li {
@@ -31,8 +31,8 @@ li {
 }
 
 .tituloPrincipal {
-    color: rgb(255, 255, 255);
-    text-shadow: 0 0 50px rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 50px rgb(0, 0, 0);
     font-family: 'Rubik Puddles', cursive;
     font-size: xx-large;
 }
@@ -88,24 +88,8 @@ li {
     width: auto;
 }
 
-.pIntroducao {
-    color: #ff4492;
-    text-align: justify;
-}
-
-.pOrigem {
-    color: #1100ff;
-    text-align: justify;
-}
-
 .PrincipaisCantores {
     margin-bottom: 40px;
-}
-
-.PrincipaisCantores>p,
-li {
-    color: aqua;
-    text-align: justify;
 }
 
 audio {
@@ -120,7 +104,7 @@ article {
 }
 
 header {
-    background-color: rgba(0, 0, 0, .95);
+    background-color: rgba(255, 255, 255, 0.95);
     box-shadow: 2px 10px 10px rgba(0, 0, 0, .25);
     padding-top: 1em;
     margin-bottom: 25px;
@@ -164,9 +148,15 @@ img {
 }
 
 nav {
-    background-color: rgb(29, 27, 27);
+    background-color: grey;
     position: fixed;
     border: white 1px solid;
     bottom: 10px;
     right: 10px;
+}
+
+.giphy-embed {
+        position: absolute;
+        top: 0;
+        left: 0;
 }
