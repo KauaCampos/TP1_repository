@@ -111,8 +111,8 @@ header {
 li{
     list-style-type: none;
     display: inline-block;
-    padding-inline: 7.5px;
-    margin-left: 10px;
+    padding-inline: 5px;
+    margin-left: 7.5px;
 }
 
 header a {
@@ -170,5 +170,14 @@ nav {
   }
 
   #giphyButton {
-    margin-left: 50%;
+    margin-left: 45%;
+  }
+
+  #voltar {
+    font-size: 400%;
+    color: white;
+  }
+
+  #voltar:hover {
+    color: cyan;
   }
