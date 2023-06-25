@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Puddles&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Rubik+Puddles&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@600&display=swap');
 
 body {
     padding: 30px;
@@ -9,13 +9,14 @@ body {
 
 main {
     padding: 10px 40px 40px 40px;
-
 }
 
 p,
 li,
-a {
-    font-family: Arial, Helvetica, sans-serif;
+a,
+dt,
+dd {
+    font-family: 'Belanosima', sans-serif;
     font-weight: 600;
     color: rgb(255, 255, 255);
     text-align: justify;
@@ -108,7 +109,7 @@ header {
     margin-bottom: 25px;
 }
 
-li{
+li {
     list-style-type: none;
     display: inline-block;
     padding-inline: 5px;
@@ -141,10 +142,6 @@ img {
     float: right;
 }
 
-.imageLeft {
-    float: left;
-}
-
 nav {
     display: flex;
     top: 0;
@@ -153,9 +150,8 @@ nav {
     position: fixed;
 }
 
-#creditos > h2{
-    font-size: 400%;
-    color: white;
+dt {
+    padding: 30px;
 }
 
 .giphy-container {
@@ -167,17 +163,30 @@ nav {
     transform: translate(-50%, -50%);
     z-index: 9999;
     transition: all 0.5s ease;
-  }
+}
 
-  #giphyButton {
+#giphyButton {
     margin-left: 45%;
-  }
+}
 
-  #voltar {
+#voltar {
     font-size: 400%;
     color: white;
-  }
+}
 
-  #voltar:hover {
+#voltar:hover {
     color: cyan;
-  }
+}
+
+.ListasMusicas {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.colaboradores {
+    font-family: 'Dancing Script', cursive;
+    text-align: justify;
+    color: #ffffff;
+    text-shadow: 0 0 50px #c300ff;
+    font-size: 300%;
+}
